@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://event.bintangpelajar.com/'</initValue>
+      <name>url_browser</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'it.bp0101+testqa03@gmail.com'</initValue>
+      <name>email_login</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'bpjuara'</initValue>
+      <name>password_login</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

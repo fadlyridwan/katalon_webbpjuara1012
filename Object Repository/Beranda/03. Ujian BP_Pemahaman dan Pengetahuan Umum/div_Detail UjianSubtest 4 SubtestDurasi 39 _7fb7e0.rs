@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Detail UjianSubtest 4 SubtestDurasi 39 _7fb7e0</name>
+   <tag></tag>
+   <elementGuidId>18f5ca4c-00e5-4854-8a20-432485b1a263</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div/div/div[2]/div/div/div/div/div/div[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.space-y-3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c314a44f-619d-4ddf-b9c6-2821d9ba74cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>space-y-3</value>
+      <webElementGuid>41dd1cfe-aa9a-4103-9b31-c5a0dd9e13a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Detail UjianSubtest: 4 SubtestDurasi: 39 MenitTanggal Pelaksanaan03 November 2024 sampai 30 November 2025Lihat</value>
+      <webElementGuid>756178a2-92b4-4fc7-b16b-0398db5f1ba2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;flex flex-col relative bg-[#F5FFFE]&quot;]/div[1]/div[@class=&quot;relative&quot;]/div[@class=&quot;mx-auto max-w-4xl mb-20&quot;]/div[@class=&quot;mx-auto p-5&quot;]/div[1]/div[@class=&quot;space-y-8&quot;]/div[@class=&quot;grid md:grid-cols-2 gap-4&quot;]/div[@class=&quot;bg-white border border-gray-200 rounded-lg shadow cursor-pointer&quot;]/div[@class=&quot;p-5&quot;]/div[@class=&quot;space-y-3&quot;]</value>
+      <webElementGuid>de9593e4-7c45-4214-b06e-1aa5c14909a1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/div[2]/div/div/div/div/div/div[2]/div</value>
+      <webElementGuid>28f402e9-9548-44a8-9c9b-0703b2b56b4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ujian Untukmu'])[1]/following::div[6]</value>
+      <webElementGuid>8d617a5b-033d-4fd6-9fb9-fa6d1f846c87</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test QA 3,'])[1]/following::div[10]</value>
+      <webElementGuid>ac14a4fb-d5ae-42c3-9e4b-610ca77fbf30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/div[2]/div</value>
+      <webElementGuid>0ba713e4-d9b9-4c37-8377-1163516b3cea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Detail UjianSubtest: 4 SubtestDurasi: 39 MenitTanggal Pelaksanaan03 November 2024 sampai 30 November 2025Lihat' or . = 'Detail UjianSubtest: 4 SubtestDurasi: 39 MenitTanggal Pelaksanaan03 November 2024 sampai 30 November 2025Lihat')]</value>
+      <webElementGuid>3beb5ffd-e64a-4745-8d5b-139faa3eac6c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

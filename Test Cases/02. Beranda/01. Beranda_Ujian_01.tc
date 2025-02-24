@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01. Beranda_Ujian_01</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6a376543-d3e4-42ee-b5fb-5a17c012207a</testCaseGuid>
+</TestCaseEntity>
