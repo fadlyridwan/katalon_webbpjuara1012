@@ -20,9 +20,13 @@ import org.openqa.selenium.Keys as Keys
 WebUI.scrollToElement(findTestObject('Beranda/03. Ujian BP_Pemahaman dan Pengetahuan Umum/01. Beranda_Ujian01_klik_Lihat'), 
     2)
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Object Repository/Beranda/03. Ujian BP_Pemahaman dan Pengetahuan Umum/01. Beranda_Ujian01_klik_Lihat'))
 
-WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Beranda/03. Ujian BP_Pemahaman dan Pengetahuan Umum/xpath_ujian_memahami_bacaan_menulis'))
 
@@ -37,6 +41,8 @@ WebUI.click(findTestObject('Beranda/03. Ujian BP_Pemahaman dan Pengetahuan Umum/
 WebUI.click(findTestObject('Beranda/03. Ujian BP_Pemahaman dan Pengetahuan Umum/soal_jawaban_a'))
 
 WebUI.click(findTestObject('Beranda/03. Ujian BP_Pemahaman dan Pengetahuan Umum/xpath_btn_kumpulkan_ujian'))
+
+WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Beranda/03. Ujian BP_Pemahaman dan Pengetahuan Umum/xpath_btn_kumpulkan_ujian'))
 

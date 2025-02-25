@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Riwayat_btn_Lihat</name>
+   <name>xpath_soal_ujian_no15</name>
    <tag></tag>
-   <elementGuidId>01992d01-94d0-48fa-8c1f-4a282291120c</elementGuidId>
+   <elementGuidId>fa862f28-cd49-44de-b423-79ac0a76afb9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[normalize-space()='Lihat']</value>
+         <value>//button[normalize-space()='15']</value>
       </entry>
       <entry>
          <key>BASIC</key>

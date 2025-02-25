@@ -17,19 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser(GlobalVariable.url_browser)
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('Object Repository/Login/Page_Ujian Bintang Pelajar/01. Login_input_email'), GlobalVariable.email_login)
-
-WebUI.setText(findTestObject('Object Repository/Login/Page_Ujian Bintang Pelajar/02. Login_input_password'), GlobalVariable.password_login)
+WebUI.click(findTestObject('Beranda/03. Ujian BP_Pemahaman dan Pengetahuan Umum/btn_Riwayat'))
 
 WebUI.takeScreenshot()
 
-WebUI.click(findTestObject('Object Repository/Login/Page_Ujian Bintang Pelajar/03. Login_click_button_Masuk'))
+WebUI.click(findTestObject('Beranda/03. Ujian BP_Pemahaman dan Pengetahuan Umum/Riwayat_btn_Lihat_01'))
 
-WebUI.delay(2)
+WebUI.click(findTestObject('Beranda/03. Ujian BP_Pemahaman dan Pengetahuan Umum/Riwayat_btn_Tutup'))
 
-WebUI.takeScreenshot()
+WebUI.click(findTestObject('Beranda/03. Ujian BP_Pemahaman dan Pengetahuan Umum/Riwayat_btn_Lihat_02'))
+
+WebUI.click(findTestObject('Beranda/03. Ujian BP_Pemahaman dan Pengetahuan Umum/Riwayat_btn_Tutup'))
+
+WebUI.click(findTestObject('Beranda/03. Ujian BP_Pemahaman dan Pengetahuan Umum/Riwayat_btn_Lihat_03'))
+
+WebUI.click(findTestObject('Beranda/03. Ujian BP_Pemahaman dan Pengetahuan Umum/Riwayat_btn_Tutup'))
+
+WebUI.click(findTestObject('Beranda/03. Ujian BP_Pemahaman dan Pengetahuan Umum/Riwayat_btn_Lihat_04'))
+
+WebUI.click(findTestObject('Beranda/03. Ujian BP_Pemahaman dan Pengetahuan Umum/Riwayat_btn_Tutup'))
 

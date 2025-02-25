@@ -17,19 +17,36 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('01. Login/Login_Default'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.scrollToElement(findTestObject('Beranda/03. Ujian BP_Pemahaman dan Pengetahuan Umum/01. Beranda_Ujian01_klik_Lihat'), 
     2)
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Object Repository/Beranda/03. Ujian BP_Pemahaman dan Pengetahuan Umum/01. Beranda_Ujian01_klik_Lihat'))
 
-WebUI.scrollToElement(findTestObject('Beranda/03. Ujian BP_Pemahaman dan Pengetahuan Umum/xpath_ujian_pemahaman_umum'), 
-    2)
+WebUI.scrollToElement(findTestObject('Beranda/03. Ujian BP_Pemahaman dan Pengetahuan Umum/xpath_ujian_title'), 3)
 
-WebUI.click(findTestObject('Beranda/03. Ujian BP_Pemahaman dan Pengetahuan Umum/xpath_ujian_pemahaman_umum'))
+WebUI.delay(3)
+
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Beranda/03. Ujian BP_Pemahaman dan Pengetahuan Umum/xpath_ujian_penalaran_umum'))
 
 WebUI.click(findTestObject('Beranda/03. Ujian BP_Pemahaman dan Pengetahuan Umum/xpath_Button_siap mulai'))
 
 WebUI.click(findTestObject('Beranda/03. Ujian BP_Pemahaman dan Pengetahuan Umum/soal_jawaban_a'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.scrollToElement(findTestObject('Beranda/03. Ujian BP_Pemahaman dan Pengetahuan Umum/xpath_soal_ujian_no30'), 2)
+
+WebUI.click(findTestObject('Beranda/03. Ujian BP_Pemahaman dan Pengetahuan Umum/xpath_soal_ujian_no30'))
+
+WebUI.click(findTestObject('Beranda/03. Ujian BP_Pemahaman dan Pengetahuan Umum/soal_jawaban_a'))
+
+WebUI.click(findTestObject('Beranda/03. Ujian BP_Pemahaman dan Pengetahuan Umum/xpath_btn_kumpulkan_ujian'))
+
+WebUI.takeScreenshot()
+
+WebUI.click(findTestObject('Beranda/03. Ujian BP_Pemahaman dan Pengetahuan Umum/xpath_btn_kumpulkan_ujian'))
+
+WebUI.click(findTestObject('Beranda/03. Ujian BP_Pemahaman dan Pengetahuan Umum/xpath_btn_kembali_ke_beranda'))
 
